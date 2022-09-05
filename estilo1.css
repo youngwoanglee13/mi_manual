@@ -1,0 +1,53 @@
+h1{text-align: center;
+  color: white;}
+body{
+    background-color: rgba(31, 43, 66, 0.937);
+  
+
+}
+
+table {
+  background-color: rgb(225, 230, 234);
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    border: 5px solid rgb(0, 0, 0);
+    text-align:left
+    
+    
+}
+thead th:nth-child(1) {
+  width: 13%;
+}
+thead th:nth-child(2) {
+    width: 68%;
+}
+thead th:nth-child(3) {
+    width: 21%;
+  }
+td, th{
+    padding:10px;
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+}
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  }
+  
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+ 
+  
+  
+  
