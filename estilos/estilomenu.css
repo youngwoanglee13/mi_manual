@@ -1,0 +1,29 @@
+html{
+    display: table;
+    background-color: rgb(225, 230, 234);
+    margin: auto;
+    text-align: center;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+.menu{
+    display: table-cell;
+   
+    
+    padding: 10%;
+    background-color: rgba(31, 43, 66, 0.937);
+    color:rgb(223, 223, 223);
+    border: 2px solid #cacaca;
+    border-radius: 9px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      
+}
+.opcion{
+    
+    
+    background-color:black ;
+
+}
+

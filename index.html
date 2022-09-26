@@ -5,143 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Manual</title>
-    <link rel="stylesheet" href="estilo1.css">
+    <link rel="stylesheet" href="estilos/estilomenu.css">
+    <link rel="shortcut icon" href="menu-icon-19342-Windows.ico">
 </head>
-<body>
-    
-    <h1>HTML ELEMENTS</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>PAGE</th>
-                <th>DESCRIPTION</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    HTML
-                </td>
-                <td>
-                    Is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).  
-                </td>
-                
-            </tr>
+<body>  
+        <div class="menu">
+            <h1>MANUAL</h1>
+            <a href="manualhtml.html"><button id="bhtml">HTML</button></a>
+            <a href="manualcss.html"><button id="bcss">CSS</button></a>
             
-        </tbody>
-    </table>
-    <table>
-        <thead>
-           <tr>
-                <th>ELEMENT</th>
-                <th>DESCRIPTION</th>
-                <th>DOCUMENTATION</th>
-           </tr> 
-        </thead>
-        <tbody>
-            <tr>
-                <td>html</td>
-                <td>Represents the root of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="_blank">html</a></td>
-            </tr>
-            <tr>
-                <td>title</td>
-                <td>Defines the document's title that is shown in a browser's title bar or a page's tab. It only contains text; tags within the element are ignored.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" target="_blank">title</a></td>
-            </tr>
-            <tr>
-                <td>head</td>
-                <td>Represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" target="_blank">head</a></td>
-            </tr>
-            <tr>
-                <td>main</td>
-                <td>Rrepresents the dominant content of the body of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" target="_blank">main</a></td>
-            </tr>
-            <tr>
-                <td>article</td>
-                <td>Represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">article</a></td>
-            </tr>
-            <tr>
-                <td>section</td>
-                <td>Represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">section</a></td>
-            </tr>
-            <tr>
-                <td>footer</td>
-                <td>Represents a footer for its nearest ancestor sectioning content or sectioning root element.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank">footer</a></td>
-            </tr>
-            <tr>
-                <td>div</td>
-                <td>Is the generic container for flow content.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank">div</a></td>
-            </tr>
-            <tr>
-                <td>body</td>
-                <td>Represents the content of an HTML document.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="_blank">body</a></td>
-            </tr>
-            <tr>
-                <td>base</td>
-                <td>Specifies the base URL to use for all relative URLs in a document.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base" target="_blank">base</a></td>
-            </tr>
-            <tr>
-                <td>link</td>
-                <td>Specifies relationships between the current document and an external resource.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link" target="_blank">link</a></td>
-            </tr>
-            <tr>
-                <td>meta</td>
-                <td>Represents metadata that cannot be represented by other HTML meta-related elements.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" target="_blank">meta</a></td>
-            </tr>
-            <tr>
-                <td>style</td>
-                <td>Contains style information for a document, or part of a document.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style" target="_blank">style</a></td>
-            </tr>
-            <tr>
-                <td>address</td>
-                <td>Indicates that the enclosed HTML provides contact information for a person or people, or for an organization.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address" target="_blank">address</a></td>
-            </tr>
-            <tr>
-                <td>aside</td>
-                <td>Represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="_blank">aside</a></td>
-            </tr>
-            <tr>
-                <td>h1, h2, h3, h4, h5, h6</td>
-                <td>Represent six levels of section headings. h1 is the highest section level and h6 is the lowest.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">h1 a h6</a></td>
-            </tr>
-            <tr>
-                <td>nav</td>
-                <td>Represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="_blank">nav</a></td>
-            </tr>
-            <tr>
-                <td>menu</td>
-                <td>This element is described in the HTML specification as a semantic alternative to ul, but treated by browsers (and exposed through the accessibility tree) as no different than ul. It represents an unordered list of items (which are represented by li elements).</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu" target="_blank">menu</a></td>
-            </tr>
-            <tr>
-                <td>data</td>
-                <td>Links a given piece of content with a machine-readable translation. </td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data" target="_blank">data</a></td>
-            </tr>
-            <tr>
-                <td>form</td>
-                <td>Represents a document section containing interactive controls for submitting information.</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" target="_blank">form</a></td>
-            </tr>
-           
-
-        </tbody>
-    </table>    
+            
+        </div>
+    
 </body>
 </html>
