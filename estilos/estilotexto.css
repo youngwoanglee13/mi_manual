@@ -1,0 +1,23 @@
+h1{text-align: center;
+    color: white;}
+  main{
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+  }
+  body{
+      background-color: rgba(31, 43, 66, 0.937); 
+  }
+  
+
+  html {
+      font-family: 'helvetica neue', helvetica, arial, sans-serif;
+      color: rgb(225, 230, 234);
+    }
+
+footer{
+  color: rgb(225, 230, 234);
+  text-align: center;
+}

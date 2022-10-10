@@ -1,0 +1,100 @@
+h1{text-align: center;
+    color: white;}
+  main{
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+  }
+  body{
+      background-color: rgba(31, 43, 66, 0.937); 
+  }
+  .elemento-flexible{
+    height: 10rem;
+    width: 10rem;
+}
+  .flex-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(151, 154, 151, 0.559);
+    width: 100%;
+    min-height: 10rem;
+    min-width: 10rem;
+}
+.flex-2{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(151, 154, 151, 0.559);
+  width: 100%;
+  min-height: 10rem;
+  min-width: 10rem;
+}
+
+.flex-3{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(151, 154, 151, 0.559);
+  width: 100%;
+  min-height: 10rem;
+  min-width: 10rem;
+}
+
+.flex-4{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(151, 154, 151, 0.559);
+  width: 100%;
+  min-height: 10rem;
+  min-width: 10rem;
+}
+
+.flex-5{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(151, 154, 151, 0.559);
+  width: 100%;
+  min-height: 10rem;
+  min-width: 10rem;
+}
+
+.flex-6{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(151, 154, 151, 0.559);
+  width: 100%;
+  min-height: 10rem;
+  min-width: 10rem;
+}
+  html {
+      font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    }
+
+footer{
+  color: rgb(225, 230, 234);
+  text-align: center;
+}
